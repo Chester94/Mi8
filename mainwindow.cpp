@@ -54,7 +54,7 @@ void MainWindow::InputResolution()
 
 void MainWindow::keyPressEvent(QKeyEvent *event)
 {
-    if( event->key() == 16777220 || event->key() == 16777221 )
+    if( event->key() == Qt::Key_Enter || event->key() == Qt::Key_Return )
     {
         if( ui->linePassword->displayText().length() != 0 )
         {

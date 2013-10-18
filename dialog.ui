@@ -22,6 +22,9 @@
     <height>600</height>
    </size>
   </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::NoContextMenu</enum>
+  </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
@@ -33,6 +36,9 @@
      <width>70</width>
      <height>30</height>
     </rect>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::NoContextMenu</enum>
    </property>
    <property name="orientation">
     <enum>Qt::Horizontal</enum>
@@ -52,6 +58,9 @@
      <width>1000</width>
      <height>600</height>
     </rect>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::NoContextMenu</enum>
    </property>
    <property name="text">
     <string>TextLabel</string>
